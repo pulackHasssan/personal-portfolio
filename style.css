@@ -23,7 +23,7 @@ body{
     background-color:rgb(170, 235, 213);
     color: black;
 }
-section{
+.flexible-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,4 +45,17 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.experience-card{
+    max-height: 400px;
+    width: 400px;
+    padding: 5%;
+    border-left: 10px solid red;
+    box-shadow: -4px 13px 38px 18px rgba(0,0,0,0.33);
+    -webkit-box-shadow: -4px 13px 38px 18px rgba(0,0,0,0.33);
+    -moz-box-shadow: -4px 13px 38px 18px rgba(0,0,0,0.33);
+}
+.extra-container{
+    justify-content: space-around;
+    margin-top: 10px;
 }
